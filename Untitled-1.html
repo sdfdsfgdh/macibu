@@ -1,0 +1,48 @@
+<html>
+    <head>javascript atkartojums</head>
+    <body>
+        <h1>javascript</h1>
+        <p>press f12 key or ctrl+i. Look in console</p>
+        <script>
+            let str ="This is a new string"
+            console.log("my string: ",str)
+            //property
+            let len=str.length
+            console.log('length of string: ', len)
+            let includenew=str.includes('new')
+            console.log('includes new ',includenew)
+
+
+             let cups=str.toUpperCase() 
+             let l=str.toLowerCase()   
+             console.log(cups, l)
+
+            let age=20
+            console.log('Persong age: ', age)
+            console.log(`person age: ${age}`)
+
+
+
+            let repl = str.replace('This','hello, this')
+            console.log(repl)
+
+            let text='today is beatiful weather'
+            let strl=repl.slice(0,7)
+            let str2=repl.slice(7)
+            newstr=strl.concat(text, str2)
+            console.log(strl)
+            console.log(newstr)
+
+
+            let name='file.txt'
+            let teksts='faila paplasinajums ir '
+            let ind= name.lastIndexOf('.')
+            let name1=name.slice(ind+1)
+            let name2=teksts.concat(name1)
+            console.log(name2)
+
+        console.log('jauns pazinojums')
+            
+        </script>
+
+</html>
