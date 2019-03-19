@@ -1,0 +1,28 @@
+.PostCard-ImageBlock{
+    text-align: center;
+}
+.PostCard-CardImg{
+    width: 90%;
+}
+.PostCard-InfoBlock_position{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.PostCard-Card_space-top-bottom{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.PostCard-Button_position-right{
+    float: right;
+}
+.PostCard-CardTitle{
+    font-size: 20pt;
+    font-family: 'Srisakdi', cursive;
+    text-shadow: 3px 3px 2px grey; 
+}
+.PostCard-CardText{
+    font-family: 'Indie Flower', cursive;
+}
+.PostCard-Button{
+    font-family: 'Indie Flower', cursive;
+}
